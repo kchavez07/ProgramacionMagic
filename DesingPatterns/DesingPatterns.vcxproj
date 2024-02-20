@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7eecf6dd-eff3-4be0-ad40-eea81801e4bc}</ProjectGuid>
-    <RootNamespace>ProgramacionMagic</RootNamespace>
+    <ProjectGuid>{70407a6e-c3a0-4a61-bee7-53fb70d9d935}</ProjectGuid>
+    <RootNamespace>DesingPatterns</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>./include/;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,18 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Includes\Banco.h" />
-    <ClInclude Include="Includes\Circulo.h" />
-    <ClInclude Include="Includes\Coche.h" />
-    <ClInclude Include="Includes\Coche2.h" />
-    <ClInclude Include="Includes\Colores.h" />
-    <ClInclude Include="Includes\Estudiantes.h" />
-    <ClInclude Include="Includes\Persona.h" />
     <ClInclude Include="Includes\Preriquisites.h" />
-    <ClInclude Include="Includes\Rectangulo.h" />
+    <ClInclude Include="Includes\singleton.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
