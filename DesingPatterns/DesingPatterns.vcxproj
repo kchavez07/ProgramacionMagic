@@ -128,8 +128,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Includes\Preriquisites.h" />
-    <ClInclude Include="Includes\singleton.h" />
+    <ClInclude Include="Include\Adapter.h" />
+    <ClInclude Include="Include\AdapterPractica.h" />
+    <ClInclude Include="Include\Bridge.h" />
+    <ClInclude Include="Include\Builder.h" />
+    <ClInclude Include="Include\BuilderPractica.h" />
+    <ClInclude Include="Include\ChainofResponsability.h" />
+    <ClInclude Include="Include\ChainR_Practica.h" />
+    <ClInclude Include="Include\Composite.h" />
+    <ClInclude Include="Include\CompositePractica.h" />
+    <ClInclude Include="Include\Decorator.h" />
+    <ClInclude Include="Include\DecoratorPractica.h" />
+    <ClInclude Include="Include\FactoryMethod.h" />
+    <ClInclude Include="Include\FactoryPractica.h" />
+    <ClInclude Include="Include\Preriquisites.h" />
+    <ClInclude Include="Include\Prototype.h" />
+    <ClInclude Include="Include\PrototypePractica .h" />
+    <ClInclude Include="Include\Proxy.h" />
+    <ClInclude Include="Include\ProxyPractica.h" />
+    <ClInclude Include="Include\RegistroActividad.h" />
+    <ClInclude Include="Include\singleton.h" />
+    <ClInclude Include="Include\TemplateMethod.h" />
+    <ClInclude Include="Include\TemplatePractica.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
