@@ -2,6 +2,203 @@
 C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\FactoryMethod.h(38,20): error C2061: error de sintaxis: identificador 'FMPepsiBlack'
   (compilando archivo de origen "source/main.cpp")
   
-C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\AdapterPractica.h(2,10): error C1083: No se puede abrir el archivo incluir: 'Prerequisites.h': No such file or directory
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ProxyPractica.h(19,30): error C2061: error de sintaxis: identificador 'ImagenReal'
   (compilando archivo de origen "source/main.cpp")
   
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(19,17): error C2011: 'Manejador': nueva definición del tipo 'class'
+  (compilando archivo de origen "source/main.cpp")
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainofResponsability.h(5,7):
+  vea la declaración de 'Manejador'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(30,41): error C2504: 'Manejador': clase base sin definir
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(34,10): error C3668: 'ManejadorDirectorGeneral::manejar': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(32,54): error C2614: 'ManejadorDirectorGeneral': inicialización de miembro no válida: 'Manejador' no es una base o miembro
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(46,33): error C2504: 'Manejador': clase base sin definir
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(50,10): error C3668: 'ManejadorGerente::manejar': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(48,46): error C2614: 'ManejadorGerente': inicialización de miembro no válida: 'Manejador' no es una base o miembro
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(55,18): error C2065: 'siguiente': identificador no declarado
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(56,13): error C2065: 'siguiente': identificador no declarado
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(65,35): error C2504: 'Manejador': clase base sin definir
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(69,10): error C3668: 'ManejadorDirectivo::manejar': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(67,48): error C2614: 'ManejadorDirectivo': inicialización de miembro no válida: 'Manejador' no es una base o miembro
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(74,18): error C2065: 'siguiente': identificador no declarado
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(75,13): error C2065: 'siguiente': identificador no declarado
+  (compilando archivo de origen "source/main.cpp")
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(37,9): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(44,23): error C2374: 'instance': nueva definición; inicialización múltiple
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(29,23):
+  vea la declaración de 'instance'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(53,7): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(56,8): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,27): error C2665: 'ManejadorGerente::ManejadorGerente':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(62,1):
+  puede ser 'ManejadorGerente::ManejadorGerente(ManejadorGerente &&)'
+  	C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,27):
+  	'ManejadorGerente::ManejadorGerente(ManejadorGerente &&)': el argumento 1 no puede convertirse de 'ManejadorDirectorGeneral *' a 'ManejadorGerente &&'
+  		C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,28):
+  		Razón: no se puede realizar la conversión de 'ManejadorDirectorGeneral *' a 'ManejadorGerente'
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(62,1):
+  o       'ManejadorGerente::ManejadorGerente(const ManejadorGerente &)'
+  	C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,27):
+  	'ManejadorGerente::ManejadorGerente(const ManejadorGerente &)': el argumento 1 no puede convertirse de 'ManejadorDirectorGeneral *' a 'const ManejadorGerente &'
+  		C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,28):
+  		Razón: no se puede realizar la conversión de 'ManejadorDirectorGeneral *' a 'const ManejadorGerente'
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(48,5):
+  o       'ManejadorGerente::ManejadorGerente(Manejador *)'
+  	C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,27):
+  	'ManejadorGerente::ManejadorGerente(Manejador *)': el argumento 1 no puede convertirse de 'ManejadorDirectorGeneral *' a 'Manejador *'
+  		C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,28):
+  		Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(456,27):
+  al hacer coincidir la lista de argumentos '(ManejadorDirectorGeneral *)'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,31): error C2665: 'ManejadorDirectivo::ManejadorDirectivo':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(81,1):
+  puede ser 'ManejadorDirectivo::ManejadorDirectivo(ManejadorDirectivo &&)'
+  	C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,31):
+  	'ManejadorDirectivo::ManejadorDirectivo(ManejadorDirectivo &&)': el argumento 1 no puede convertirse de 'ManejadorGerente *' a 'ManejadorDirectivo &&'
+  		C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,32):
+  		Razón: no se puede realizar la conversión de 'ManejadorGerente *' a 'ManejadorDirectivo'
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(81,1):
+  o       'ManejadorDirectivo::ManejadorDirectivo(const ManejadorDirectivo &)'
+  	C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,31):
+  	'ManejadorDirectivo::ManejadorDirectivo(const ManejadorDirectivo &)': el argumento 1 no puede convertirse de 'ManejadorGerente *' a 'const ManejadorDirectivo &'
+  		C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,32):
+  		Razón: no se puede realizar la conversión de 'ManejadorGerente *' a 'const ManejadorDirectivo'
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\include\ChainR_Practica.h(67,5):
+  o       'ManejadorDirectivo::ManejadorDirectivo(Manejador *)'
+  	C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,31):
+  	'ManejadorDirectivo::ManejadorDirectivo(Manejador *)': el argumento 1 no puede convertirse de 'ManejadorGerente *' a 'Manejador *'
+  		C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,32):
+  		Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(457,31):
+  al hacer coincidir la lista de argumentos '(ManejadorGerente *)'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(56,2): error C2045: 'cout': etiqueta redefinida
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(484,8): error C2084: la función 'int main(void)' ya tiene un cuerpo
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(46,5):
+  vea la definición anterior de 'main'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(508,4): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(508,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(508,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(508,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(508,4): error C2371: 'hilo1': nueva definición; tipos básicos distintos
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(503,11):
+  vea la declaración de 'hilo1'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(508,10): error C2146: error de sintaxis: falta ';' delante del identificador 'join'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(509,4): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(509,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(509,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(509,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(509,4): error C2371: 'hilo2': nueva definición; tipos básicos distintos
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(504,11):
+  vea la declaración de 'hilo2'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(509,10): error C2146: error de sintaxis: falta ';' delante del identificador 'join'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(510,4): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(510,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(510,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(510,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(510,4): error C2371: 'hilo3': nueva definición; tipos básicos distintos
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(505,11):
+  vea la declaración de 'hilo3'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(510,10): error C2146: error de sintaxis: falta ';' delante del identificador 'join'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,9): error C2143: error de sintaxis: falta ';' delante de '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,9): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(514,9): error C2143: error de sintaxis: falta ';' delante de '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(514,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(514,4): error C2086: 'int cout': nueva definición
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,4):
+  vea la declaración de 'cout'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(514,9): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(515,9): error C2143: error de sintaxis: falta ';' delante de '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(515,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(515,4): error C2086: 'int cout': nueva definición
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,4):
+  vea la declaración de 'cout'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(515,9): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(517,4): error C2059: error de sintaxis: 'return'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(520,26): error C2374: 'instance': nueva definición; inicialización múltiple
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(44,23):
+  vea la declaración de 'instance'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(528,5): error C2872: 'cout': símbolo ambiguo
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,4):
+  puede ser 'int cout'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iostream(39,75):
+  o       'std::ostream std::cout'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(528,10): error C2297: '<<': no es válido porque el operando derecho tiene el tipo 'const char [6]'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(528,29): error C2297: '<<': no es válido porque el operando derecho tiene el tipo 'const char [34]'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(528,71): error C2563: hay una falta de correspondencia en la lista de parámetros formales
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(528,71): error C2568: '<<': no se puede resolver la sobrecarga de funciones
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(528,71):
+  puede ser 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(531,11): error C2374: 'hilo1': nueva definición; inicialización múltiple
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(503,11):
+  vea la declaración de 'hilo1'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(532,11): error C2374: 'hilo2': nueva definición; inicialización múltiple
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(504,11):
+  vea la declaración de 'hilo2'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(534,4): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(534,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(534,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(534,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(534,4): error C2371: 'hilo1': nueva definición; tipos básicos distintos
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(503,11):
+  vea la declaración de 'hilo1'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(534,10): error C2146: error de sintaxis: falta ';' delante del identificador 'join'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(535,4): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(535,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(535,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(535,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(535,4): error C2371: 'hilo2': nueva definición; tipos básicos distintos
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(504,11):
+  vea la declaración de 'hilo2'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(535,10): error C2146: error de sintaxis: falta ';' delante del identificador 'join'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(538,9): error C2143: error de sintaxis: falta ';' delante de '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(538,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(538,4): error C2086: 'int cout': nueva definición
+  C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(513,4):
+  vea la declaración de 'cout'
+  
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(538,9): error C2059: error de sintaxis: '<<'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(540,4): error C2059: error de sintaxis: '}'
+C:\Users\kevin\source\repos\ProgramacionMagic\DesingPatterns\source\main.cpp(540,4): error C2143: error de sintaxis: falta ';' delante de '}'

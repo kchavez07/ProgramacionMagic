@@ -18,11 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Comand.h" />
+    <ClInclude Include="Include\Prereriquisites.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{70407a6e-c3a0-4a61-bee7-53fb70d9d935}</ProjectGuid>
-    <RootNamespace>DesingPatterns</RootNamespace>
+    <ProjectGuid>{e0e87125-05e3-41b7-ace0-d32a31a36660}</ProjectGuid>
+    <RootNamespace>GameProgramingPatterns</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -76,7 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>./include/;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>/include/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,36 +134,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Include\Adapter.h" />
-    <ClInclude Include="Include\AdapterPractica.h" />
-    <ClInclude Include="Include\Bridge.h" />
-    <ClInclude Include="Include\Builder.h" />
-    <ClInclude Include="Include\BuilderPractica.h" />
-    <ClInclude Include="Include\ChainofResponsability.h" />
-    <ClInclude Include="Include\ChainR_Practica.h" />
-    <ClInclude Include="Include\Composite.h" />
-    <ClInclude Include="Include\CompositePractica.h" />
-    <ClInclude Include="Include\Decorator.h" />
-    <ClInclude Include="Include\DecoratorPractica.h" />
-    <ClInclude Include="Include\FactoryMethod.h" />
-    <ClInclude Include="Include\FactoryPractica.h" />
-    <ClInclude Include="Include\MultihiloPractica .h" />
-    <ClInclude Include="Include\Preriquisites.h" />
-    <ClInclude Include="Include\Productor-Consumidor.h" />
-    <ClInclude Include="Include\Prototype.h" />
-    <ClInclude Include="Include\PrototypePractica .h" />
-    <ClInclude Include="Include\Proxy.h" />
-    <ClInclude Include="Include\ProxyPractica.h" />
-    <ClInclude Include="Include\RegistroActividad.h" />
-    <ClInclude Include="Include\singleton.h" />
-    <ClInclude Include="Include\SingletonMultihilo.h" />
-    <ClInclude Include="Include\TemplateMethod.h" />
-    <ClInclude Include="Include\TemplatePractica.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="source\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

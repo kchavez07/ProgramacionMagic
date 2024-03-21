@@ -20,6 +20,9 @@
 #include "ChainR_Practica.h"
 #include "TemplateMethod.h"
 #include "TemplatePractica.h"
+#include "SingletonMultihilo.h"
+#include "MultihiloPractica .h"
+#include "Productor-Consumidor.h"
 
 //Threads
 #include <thread>
@@ -33,7 +36,7 @@ mutex mtx;
 void Hilo(int id) {
 	for (int i = 0; i < 5; i++) {
 		mtx.lock(); //Se bloquea el mutex 
-		cout<< "Hilo: " << id << "esta trabajando." << endl; 
+		cout: << "Hilo: " << id << "esta trabajando." << endl;
 		mtx.unlock(); //Se desbloquear el mutex cuando el lock sale de alcanze 
 	}
 }
@@ -49,10 +52,10 @@ int main() {
 
 	// Obtener otra instancia (será la misma)
 	Singleton* s2 = Singleton::getInstance();
-	cout << "Dato singleton 2: " << s2->getValue() << endl;
+	cout:<< "Dato singleton 2: " << s2->getValue() << endl;
 
 	// Imprimir el valor de la instancia original (s1)
-	cout << "Dato de la instancia: " << s1->getValue() << endl;
+	cout: << "Dato de la instancia: " << s1->getValue() << endl;
 
 	//RegistroActividad
 	int main(); 
@@ -265,7 +268,6 @@ int main() {
 
 		// Llamar al método de la interfaz nueva a través del adaptador
 		objetoNuevo->MetodoNuevo();
-
 		// Liberar memoria
 		delete objetoViejo;
 		delete objetoNuevo;
@@ -515,3 +517,49 @@ int main() {
    cout << "\n-- Ejecucion 3 entre hilos" << endl;
 
    return 0;
+   
+   //Singleton Multihilo mtx
+   Singleton* Singleton::instance = nullptr;
+   SingletonMultihilo* SingletonMultihilo::m_instance = nullptr; 
+   mutex SingletonMultihilo::m_mutexInstance;
+
+   void Hilo(int _id, int _val) {
+	   SingletonMultihilo& s = SingletonMultihilo::getInstance();
+	   s.setValue(_val);
+	   //Realizar operaciones con la instancia del singleton 
+	   cout << "\nHilo" << _id << "accediendo al SingletonMultihilo." << endl;
+   }
+
+   thread hilo1(Hilo, 1, 2);
+   thread hilo2(Hilo, 2, 4);
+
+   hilo1.join();
+   hilo2.join(),
+
+	   int val = SingletonMultihilo::getInstance().getValue();
+   cout << "Valor en el SingletonMultihilo:" << val << endl
+	   return 0;
+
+   //Multihilo Practica 
+   int main() {
+	   thread hilo1(funcionHilo, 1);
+	   thread hilo2(funcionHilo, 2);
+
+	   hilo1.join();
+	   hilo2.join();
+
+	   return 0;
+   }
+
+   //Productor-Consumidor 
+   int main() {
+	   thread hilo_productor(productor);
+	   thread hilo_consumidor1(consumidor, 1);
+	   thread hilo_consumidor2(consumidor, 2);
+
+	   hilo_productor.join();
+	   hilo_consumidor1.join();
+	   hilo_consumidor2.join();
+
+	   return 0;
+   }
