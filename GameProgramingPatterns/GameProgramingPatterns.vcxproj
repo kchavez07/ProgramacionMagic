@@ -19,11 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\main.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./include/;</AdditionalIncludeDirectories>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\ByteCode.h" />
+    <ClInclude Include="Include\ByteCodeoperacion.h" />
     <ClInclude Include="Include\Comand.h" />
+    <ClInclude Include="Include\CommandPractica.h" />
+    <ClInclude Include="Include\DoubleBuffer.h" />
+    <ClInclude Include="Include\DoubleBufferPractica.h" />
+    <ClInclude Include="Include\EventQueue.h" />
+    <ClInclude Include="Include\FlyWeight.h" />
+    <ClInclude Include="Include\Observer.h" />
+    <ClInclude Include="Include\ObserverPractica.h" />
     <ClInclude Include="Include\Prereriquisites.h" />
+    <ClInclude Include="Include\State.h" />
+    <ClInclude Include="Include\StatePractica.h" />
+    <ClInclude Include="Include\SubClass_Sandbox.h" />
+    <ClInclude Include="Include\Componente.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

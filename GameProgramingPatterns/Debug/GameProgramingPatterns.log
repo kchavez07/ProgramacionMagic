@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\kevin\source\repos\ProgramacionMagic\GameProgramingPatterns\source\main.cpp(25,5): error C2084: la función 'int main(void)' ya tiene un cuerpo
+  C:\Users\kevin\source\repos\ProgramacionMagic\GameProgramingPatterns\source\main.cpp(7,5):
+  vea la definición anterior de 'main'
+  
